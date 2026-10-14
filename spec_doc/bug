@@ -1,0 +1,1 @@
+1. the rtl was depending on any successfully recieved read/write data to read or write from the memery
