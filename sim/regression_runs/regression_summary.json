@@ -1,0 +1,84 @@
+{
+  "runs": [
+    {
+      "seed": 104729,
+      "simulator_returncode": 2,
+      "results_file": true,
+      "coverage_file": true,
+      "log_file": "D:\\digital verification\\cocotb\\spi_slave\\sim\\regression_runs\\seed_104729\\simulator.log",
+      "cocotb": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failure_details": [],
+        "passed": true
+      },
+      "results_parse_error": null
+    },
+    {
+      "seed": 130363,
+      "simulator_returncode": 2,
+      "results_file": true,
+      "coverage_file": true,
+      "log_file": "D:\\digital verification\\cocotb\\spi_slave\\sim\\regression_runs\\seed_130363\\simulator.log",
+      "cocotb": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failure_details": [],
+        "passed": true
+      },
+      "results_parse_error": null
+    },
+    {
+      "seed": 155921,
+      "simulator_returncode": 2,
+      "results_file": true,
+      "coverage_file": true,
+      "log_file": "D:\\digital verification\\cocotb\\spi_slave\\sim\\regression_runs\\seed_155921\\simulator.log",
+      "cocotb": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failure_details": [],
+        "passed": true
+      },
+      "results_parse_error": null
+    },
+    {
+      "seed": 181081,
+      "simulator_returncode": 2,
+      "results_file": true,
+      "coverage_file": true,
+      "log_file": "D:\\digital verification\\cocotb\\spi_slave\\sim\\regression_runs\\seed_181081\\simulator.log",
+      "cocotb": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failure_details": [],
+        "passed": true
+      },
+      "results_parse_error": null
+    },
+    {
+      "seed": 205759,
+      "simulator_returncode": 2,
+      "results_file": true,
+      "coverage_file": true,
+      "log_file": "D:\\digital verification\\cocotb\\spi_slave\\sim\\regression_runs\\seed_205759\\simulator.log",
+      "cocotb": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failure_details": [],
+        "passed": true
+      },
+      "results_parse_error": null
+    }
+  ]
+}

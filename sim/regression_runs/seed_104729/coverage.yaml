@@ -1,0 +1,851 @@
+spi:
+  cover_percentage: 83.58
+  coverage: 667
+  size: 798
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+spi.abort:
+  at_least: 1
+  bins:_hits:
+    ABORTED: 1045
+    COMPLETED: 1080
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+spi.addr:
+  at_least: 1
+  bins:_hits:
+    0: 230
+    1: 2
+    2: 1
+    3: 2
+    4: 4
+    5: 3
+    6: 2
+    7: 1
+    8: 3
+    9: 1
+    10: 3
+    11: 5
+    12: 5
+    13: 4
+    14: 2
+    15: 2
+    16: 8
+    17: 3
+    18: 2
+    19: 1
+    20: 2
+    21: 3
+    22: 1
+    23: 0
+    24: 9
+    25: 0
+    26: 3
+    27: 2
+    28: 6
+    29: 1
+    30: 1
+    31: 3
+    32: 15
+    33: 2
+    34: 3
+    35: 1
+    36: 5
+    37: 2
+    38: 6
+    39: 2
+    40: 2
+    41: 2
+    42: 2
+    43: 4
+    44: 2
+    45: 0
+    46: 3
+    47: 2
+    48: 13
+    49: 0
+    50: 1
+    51: 3
+    52: 3
+    53: 4
+    54: 0
+    55: 3
+    56: 8
+    57: 4
+    58: 0
+    59: 2
+    60: 6
+    61: 1
+    62: 2
+    63: 1
+    64: 37
+    65: 1
+    66: 2
+    67: 0
+    68: 2
+    69: 3
+    70: 1
+    71: 3
+    72: 7
+    73: 0
+    74: 5
+    75: 1
+    76: 2
+    77: 3
+    78: 5
+    79: 3
+    80: 4
+    81: 3
+    82: 1
+    83: 3
+    84: 4
+    85: 1
+    86: 2
+    87: 2
+    88: 6
+    89: 1
+    90: 1
+    91: 3
+    92: 0
+    93: 2
+    94: 5
+    95: 2
+    96: 7
+    97: 2
+    98: 1
+    99: 4
+    100: 3
+    101: 2
+    102: 3
+    103: 2
+    104: 5
+    105: 3
+    106: 1
+    107: 2
+    108: 3
+    109: 1
+    110: 4
+    111: 3
+    112: 7
+    113: 1
+    114: 2
+    115: 1
+    116: 3
+    117: 4
+    118: 4
+    119: 2
+    120: 4
+    121: 3
+    122: 3
+    123: 2
+    124: 2
+    125: 3
+    126: 3
+    127: 7
+    128: 61
+    129: 2
+    130: 3
+    131: 1
+    132: 1
+    133: 3
+    134: 1
+    135: 3
+    136: 4
+    137: 2
+    138: 3
+    139: 2
+    140: 4
+    141: 1
+    142: 2
+    143: 1
+    144: 11
+    145: 1
+    146: 1
+    147: 3
+    148: 1
+    149: 2
+    150: 2
+    151: 2
+    152: 5
+    153: 2
+    154: 2
+    155: 2
+    156: 1
+    157: 0
+    158: 2
+    159: 2
+    160: 13
+    161: 0
+    162: 1
+    163: 2
+    164: 3
+    165: 3
+    166: 2
+    167: 3
+    168: 4
+    169: 0
+    170: 0
+    171: 2
+    172: 6
+    173: 4
+    174: 1
+    175: 1
+    176: 3
+    177: 2
+    178: 2
+    179: 5
+    180: 2
+    181: 3
+    182: 6
+    183: 2
+    184: 5
+    185: 5
+    186: 3
+    187: 4
+    188: 3
+    189: 2
+    190: 3
+    191: 7
+    192: 26
+    193: 1
+    194: 5
+    195: 4
+    196: 3
+    197: 1
+    198: 1
+    199: 1
+    200: 8
+    201: 5
+    202: 4
+    203: 3
+    204: 2
+    205: 2
+    206: 2
+    207: 2
+    208: 14
+    209: 4
+    210: 3
+    211: 1
+    212: 3
+    213: 3
+    214: 4
+    215: 2
+    216: 9
+    217: 2
+    218: 2
+    219: 2
+    220: 3
+    221: 2
+    222: 3
+    223: 2
+    224: 20
+    225: 1
+    226: 4
+    227: 1
+    228: 4
+    229: 3
+    230: 1
+    231: 3
+    232: 7
+    233: 1
+    234: 1
+    235: 2
+    236: 6
+    237: 2
+    238: 2
+    239: 2
+    240: 7
+    241: 1
+    242: 1
+    243: 4
+    244: 2
+    245: 3
+    246: 2
+    247: 1
+    248: 6
+    249: 1
+    250: 4
+    251: 1
+    252: 3
+    253: 3
+    254: 6
+    255: 2
+  cover_percentage: 94.92
+  coverage: 243
+  size: 256
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+spi.addr_cmd_cross:
+  at_least: 1
+  bins:_hits:
+    (0, 'READ_ADDR'): 111
+    (0, 'WRITE_ADDR'): 119
+    (1, 'READ_ADDR'): 1
+    (1, 'WRITE_ADDR'): 1
+    (10, 'READ_ADDR'): 1
+    (10, 'WRITE_ADDR'): 2
+    (100, 'READ_ADDR'): 3
+    (100, 'WRITE_ADDR'): 0
+    (101, 'READ_ADDR'): 1
+    (101, 'WRITE_ADDR'): 1
+    (102, 'READ_ADDR'): 1
+    (102, 'WRITE_ADDR'): 2
+    (103, 'READ_ADDR'): 1
+    (103, 'WRITE_ADDR'): 1
+    (104, 'READ_ADDR'): 1
+    (104, 'WRITE_ADDR'): 4
+    (105, 'READ_ADDR'): 2
+    (105, 'WRITE_ADDR'): 1
+    (106, 'READ_ADDR'): 1
+    (106, 'WRITE_ADDR'): 0
+    (107, 'READ_ADDR'): 1
+    (107, 'WRITE_ADDR'): 1
+    (108, 'READ_ADDR'): 2
+    (108, 'WRITE_ADDR'): 1
+    (109, 'READ_ADDR'): 0
+    (109, 'WRITE_ADDR'): 1
+    (11, 'READ_ADDR'): 3
+    (11, 'WRITE_ADDR'): 2
+    (110, 'READ_ADDR'): 2
+    (110, 'WRITE_ADDR'): 2
+    (111, 'READ_ADDR'): 2
+    (111, 'WRITE_ADDR'): 1
+    (112, 'READ_ADDR'): 4
+    (112, 'WRITE_ADDR'): 3
+    (113, 'READ_ADDR'): 1
+    (113, 'WRITE_ADDR'): 0
+    (114, 'READ_ADDR'): 0
+    (114, 'WRITE_ADDR'): 2
+    (115, 'READ_ADDR'): 1
+    (115, 'WRITE_ADDR'): 0
+    (116, 'READ_ADDR'): 2
+    (116, 'WRITE_ADDR'): 1
+    (117, 'READ_ADDR'): 1
+    (117, 'WRITE_ADDR'): 3
+    (118, 'READ_ADDR'): 1
+    (118, 'WRITE_ADDR'): 3
+    (119, 'READ_ADDR'): 2
+    (119, 'WRITE_ADDR'): 0
+    (12, 'READ_ADDR'): 4
+    (12, 'WRITE_ADDR'): 1
+    (120, 'READ_ADDR'): 2
+    (120, 'WRITE_ADDR'): 2
+    (121, 'READ_ADDR'): 0
+    (121, 'WRITE_ADDR'): 3
+    (122, 'READ_ADDR'): 2
+    (122, 'WRITE_ADDR'): 1
+    (123, 'READ_ADDR'): 1
+    (123, 'WRITE_ADDR'): 1
+    (124, 'READ_ADDR'): 2
+    (124, 'WRITE_ADDR'): 0
+    (125, 'READ_ADDR'): 1
+    (125, 'WRITE_ADDR'): 2
+    (126, 'READ_ADDR'): 1
+    (126, 'WRITE_ADDR'): 2
+    (127, 'READ_ADDR'): 4
+    (127, 'WRITE_ADDR'): 3
+    (128, 'READ_ADDR'): 35
+    (128, 'WRITE_ADDR'): 26
+    (129, 'READ_ADDR'): 1
+    (129, 'WRITE_ADDR'): 1
+    (13, 'READ_ADDR'): 2
+    (13, 'WRITE_ADDR'): 2
+    (130, 'READ_ADDR'): 0
+    (130, 'WRITE_ADDR'): 3
+    (131, 'READ_ADDR'): 1
+    (131, 'WRITE_ADDR'): 0
+    (132, 'READ_ADDR'): 0
+    (132, 'WRITE_ADDR'): 1
+    (133, 'READ_ADDR'): 1
+    (133, 'WRITE_ADDR'): 2
+    (134, 'READ_ADDR'): 1
+    (134, 'WRITE_ADDR'): 0
+    (135, 'READ_ADDR'): 0
+    (135, 'WRITE_ADDR'): 3
+    (136, 'READ_ADDR'): 2
+    (136, 'WRITE_ADDR'): 2
+    (137, 'READ_ADDR'): 2
+    (137, 'WRITE_ADDR'): 0
+    (138, 'READ_ADDR'): 1
+    (138, 'WRITE_ADDR'): 2
+    (139, 'READ_ADDR'): 1
+    (139, 'WRITE_ADDR'): 1
+    (14, 'READ_ADDR'): 1
+    (14, 'WRITE_ADDR'): 1
+    (140, 'READ_ADDR'): 2
+    (140, 'WRITE_ADDR'): 2
+    (141, 'READ_ADDR'): 0
+    (141, 'WRITE_ADDR'): 1
+    (142, 'READ_ADDR'): 2
+    (142, 'WRITE_ADDR'): 0
+    (143, 'READ_ADDR'): 0
+    (143, 'WRITE_ADDR'): 1
+    (144, 'READ_ADDR'): 5
+    (144, 'WRITE_ADDR'): 6
+    (145, 'READ_ADDR'): 0
+    (145, 'WRITE_ADDR'): 1
+    (146, 'READ_ADDR'): 0
+    (146, 'WRITE_ADDR'): 1
+    (147, 'READ_ADDR'): 2
+    (147, 'WRITE_ADDR'): 1
+    (148, 'READ_ADDR'): 0
+    (148, 'WRITE_ADDR'): 1
+    (149, 'READ_ADDR'): 0
+    (149, 'WRITE_ADDR'): 2
+    (15, 'READ_ADDR'): 1
+    (15, 'WRITE_ADDR'): 1
+    (150, 'READ_ADDR'): 0
+    (150, 'WRITE_ADDR'): 2
+    (151, 'READ_ADDR'): 1
+    (151, 'WRITE_ADDR'): 1
+    (152, 'READ_ADDR'): 5
+    (152, 'WRITE_ADDR'): 0
+    (153, 'READ_ADDR'): 1
+    (153, 'WRITE_ADDR'): 1
+    (154, 'READ_ADDR'): 1
+    (154, 'WRITE_ADDR'): 1
+    (155, 'READ_ADDR'): 1
+    (155, 'WRITE_ADDR'): 1
+    (156, 'READ_ADDR'): 0
+    (156, 'WRITE_ADDR'): 1
+    (157, 'READ_ADDR'): 0
+    (157, 'WRITE_ADDR'): 0
+    (158, 'READ_ADDR'): 1
+    (158, 'WRITE_ADDR'): 1
+    (159, 'READ_ADDR'): 0
+    (159, 'WRITE_ADDR'): 2
+    (16, 'READ_ADDR'): 5
+    (16, 'WRITE_ADDR'): 3
+    (160, 'READ_ADDR'): 9
+    (160, 'WRITE_ADDR'): 4
+    (161, 'READ_ADDR'): 0
+    (161, 'WRITE_ADDR'): 0
+    (162, 'READ_ADDR'): 1
+    (162, 'WRITE_ADDR'): 0
+    (163, 'READ_ADDR'): 1
+    (163, 'WRITE_ADDR'): 1
+    (164, 'READ_ADDR'): 2
+    (164, 'WRITE_ADDR'): 1
+    (165, 'READ_ADDR'): 1
+    (165, 'WRITE_ADDR'): 2
+    (166, 'READ_ADDR'): 1
+    (166, 'WRITE_ADDR'): 1
+    (167, 'READ_ADDR'): 1
+    (167, 'WRITE_ADDR'): 2
+    (168, 'READ_ADDR'): 2
+    (168, 'WRITE_ADDR'): 2
+    (169, 'READ_ADDR'): 0
+    (169, 'WRITE_ADDR'): 0
+    (17, 'READ_ADDR'): 2
+    (17, 'WRITE_ADDR'): 1
+    (170, 'READ_ADDR'): 0
+    (170, 'WRITE_ADDR'): 0
+    (171, 'READ_ADDR'): 1
+    (171, 'WRITE_ADDR'): 1
+    (172, 'READ_ADDR'): 4
+    (172, 'WRITE_ADDR'): 2
+    (173, 'READ_ADDR'): 1
+    (173, 'WRITE_ADDR'): 3
+    (174, 'READ_ADDR'): 1
+    (174, 'WRITE_ADDR'): 0
+    (175, 'READ_ADDR'): 1
+    (175, 'WRITE_ADDR'): 0
+    (176, 'READ_ADDR'): 2
+    (176, 'WRITE_ADDR'): 1
+    (177, 'READ_ADDR'): 1
+    (177, 'WRITE_ADDR'): 1
+    (178, 'READ_ADDR'): 1
+    (178, 'WRITE_ADDR'): 1
+    (179, 'READ_ADDR'): 3
+    (179, 'WRITE_ADDR'): 2
+    (18, 'READ_ADDR'): 0
+    (18, 'WRITE_ADDR'): 2
+    (180, 'READ_ADDR'): 1
+    (180, 'WRITE_ADDR'): 1
+    (181, 'READ_ADDR'): 1
+    (181, 'WRITE_ADDR'): 2
+    (182, 'READ_ADDR'): 4
+    (182, 'WRITE_ADDR'): 2
+    (183, 'READ_ADDR'): 0
+    (183, 'WRITE_ADDR'): 2
+    (184, 'READ_ADDR'): 1
+    (184, 'WRITE_ADDR'): 4
+    (185, 'READ_ADDR'): 4
+    (185, 'WRITE_ADDR'): 1
+    (186, 'READ_ADDR'): 2
+    (186, 'WRITE_ADDR'): 1
+    (187, 'READ_ADDR'): 3
+    (187, 'WRITE_ADDR'): 1
+    (188, 'READ_ADDR'): 2
+    (188, 'WRITE_ADDR'): 1
+    (189, 'READ_ADDR'): 1
+    (189, 'WRITE_ADDR'): 1
+    (19, 'READ_ADDR'): 0
+    (19, 'WRITE_ADDR'): 1
+    (190, 'READ_ADDR'): 2
+    (190, 'WRITE_ADDR'): 1
+    (191, 'READ_ADDR'): 3
+    (191, 'WRITE_ADDR'): 4
+    (192, 'READ_ADDR'): 10
+    (192, 'WRITE_ADDR'): 16
+    (193, 'READ_ADDR'): 1
+    (193, 'WRITE_ADDR'): 0
+    (194, 'READ_ADDR'): 4
+    (194, 'WRITE_ADDR'): 1
+    (195, 'READ_ADDR'): 2
+    (195, 'WRITE_ADDR'): 2
+    (196, 'READ_ADDR'): 2
+    (196, 'WRITE_ADDR'): 1
+    (197, 'READ_ADDR'): 1
+    (197, 'WRITE_ADDR'): 0
+    (198, 'READ_ADDR'): 1
+    (198, 'WRITE_ADDR'): 0
+    (199, 'READ_ADDR'): 0
+    (199, 'WRITE_ADDR'): 1
+    (2, 'READ_ADDR'): 1
+    (2, 'WRITE_ADDR'): 0
+    (20, 'READ_ADDR'): 1
+    (20, 'WRITE_ADDR'): 1
+    (200, 'READ_ADDR'): 4
+    (200, 'WRITE_ADDR'): 4
+    (201, 'READ_ADDR'): 4
+    (201, 'WRITE_ADDR'): 1
+    (202, 'READ_ADDR'): 1
+    (202, 'WRITE_ADDR'): 3
+    (203, 'READ_ADDR'): 1
+    (203, 'WRITE_ADDR'): 2
+    (204, 'READ_ADDR'): 2
+    (204, 'WRITE_ADDR'): 0
+    (205, 'READ_ADDR'): 2
+    (205, 'WRITE_ADDR'): 0
+    (206, 'READ_ADDR'): 1
+    (206, 'WRITE_ADDR'): 1
+    (207, 'READ_ADDR'): 2
+    (207, 'WRITE_ADDR'): 0
+    (208, 'READ_ADDR'): 9
+    (208, 'WRITE_ADDR'): 5
+    (209, 'READ_ADDR'): 2
+    (209, 'WRITE_ADDR'): 2
+    (21, 'READ_ADDR'): 2
+    (21, 'WRITE_ADDR'): 1
+    (210, 'READ_ADDR'): 1
+    (210, 'WRITE_ADDR'): 2
+    (211, 'READ_ADDR'): 1
+    (211, 'WRITE_ADDR'): 0
+    (212, 'READ_ADDR'): 1
+    (212, 'WRITE_ADDR'): 2
+    (213, 'READ_ADDR'): 1
+    (213, 'WRITE_ADDR'): 2
+    (214, 'READ_ADDR'): 3
+    (214, 'WRITE_ADDR'): 1
+    (215, 'READ_ADDR'): 1
+    (215, 'WRITE_ADDR'): 1
+    (216, 'READ_ADDR'): 5
+    (216, 'WRITE_ADDR'): 4
+    (217, 'READ_ADDR'): 0
+    (217, 'WRITE_ADDR'): 2
+    (218, 'READ_ADDR'): 2
+    (218, 'WRITE_ADDR'): 0
+    (219, 'READ_ADDR'): 1
+    (219, 'WRITE_ADDR'): 1
+    (22, 'READ_ADDR'): 1
+    (22, 'WRITE_ADDR'): 0
+    (220, 'READ_ADDR'): 3
+    (220, 'WRITE_ADDR'): 0
+    (221, 'READ_ADDR'): 0
+    (221, 'WRITE_ADDR'): 2
+    (222, 'READ_ADDR'): 1
+    (222, 'WRITE_ADDR'): 2
+    (223, 'READ_ADDR'): 1
+    (223, 'WRITE_ADDR'): 1
+    (224, 'READ_ADDR'): 12
+    (224, 'WRITE_ADDR'): 8
+    (225, 'READ_ADDR'): 1
+    (225, 'WRITE_ADDR'): 0
+    (226, 'READ_ADDR'): 1
+    (226, 'WRITE_ADDR'): 3
+    (227, 'READ_ADDR'): 1
+    (227, 'WRITE_ADDR'): 0
+    (228, 'READ_ADDR'): 1
+    (228, 'WRITE_ADDR'): 3
+    (229, 'READ_ADDR'): 2
+    (229, 'WRITE_ADDR'): 1
+    (23, 'READ_ADDR'): 0
+    (23, 'WRITE_ADDR'): 0
+    (230, 'READ_ADDR'): 1
+    (230, 'WRITE_ADDR'): 0
+    (231, 'READ_ADDR'): 3
+    (231, 'WRITE_ADDR'): 0
+    (232, 'READ_ADDR'): 3
+    (232, 'WRITE_ADDR'): 4
+    (233, 'READ_ADDR'): 1
+    (233, 'WRITE_ADDR'): 0
+    (234, 'READ_ADDR'): 1
+    (234, 'WRITE_ADDR'): 0
+    (235, 'READ_ADDR'): 1
+    (235, 'WRITE_ADDR'): 1
+    (236, 'READ_ADDR'): 3
+    (236, 'WRITE_ADDR'): 3
+    (237, 'READ_ADDR'): 0
+    (237, 'WRITE_ADDR'): 2
+    (238, 'READ_ADDR'): 2
+    (238, 'WRITE_ADDR'): 0
+    (239, 'READ_ADDR'): 0
+    (239, 'WRITE_ADDR'): 2
+    (24, 'READ_ADDR'): 3
+    (24, 'WRITE_ADDR'): 6
+    (240, 'READ_ADDR'): 3
+    (240, 'WRITE_ADDR'): 4
+    (241, 'READ_ADDR'): 0
+    (241, 'WRITE_ADDR'): 1
+    (242, 'READ_ADDR'): 1
+    (242, 'WRITE_ADDR'): 0
+    (243, 'READ_ADDR'): 2
+    (243, 'WRITE_ADDR'): 2
+    (244, 'READ_ADDR'): 0
+    (244, 'WRITE_ADDR'): 2
+    (245, 'READ_ADDR'): 2
+    (245, 'WRITE_ADDR'): 1
+    (246, 'READ_ADDR'): 2
+    (246, 'WRITE_ADDR'): 0
+    (247, 'READ_ADDR'): 0
+    (247, 'WRITE_ADDR'): 1
+    (248, 'READ_ADDR'): 1
+    (248, 'WRITE_ADDR'): 5
+    (249, 'READ_ADDR'): 0
+    (249, 'WRITE_ADDR'): 1
+    (25, 'READ_ADDR'): 0
+    (25, 'WRITE_ADDR'): 0
+    (250, 'READ_ADDR'): 2
+    (250, 'WRITE_ADDR'): 2
+    (251, 'READ_ADDR'): 0
+    (251, 'WRITE_ADDR'): 1
+    (252, 'READ_ADDR'): 2
+    (252, 'WRITE_ADDR'): 1
+    (253, 'READ_ADDR'): 2
+    (253, 'WRITE_ADDR'): 1
+    (254, 'READ_ADDR'): 3
+    (254, 'WRITE_ADDR'): 3
+    (255, 'READ_ADDR'): 0
+    (255, 'WRITE_ADDR'): 2
+    (26, 'READ_ADDR'): 1
+    (26, 'WRITE_ADDR'): 2
+    (27, 'READ_ADDR'): 1
+    (27, 'WRITE_ADDR'): 1
+    (28, 'READ_ADDR'): 2
+    (28, 'WRITE_ADDR'): 4
+    (29, 'READ_ADDR'): 0
+    (29, 'WRITE_ADDR'): 1
+    (3, 'READ_ADDR'): 1
+    (3, 'WRITE_ADDR'): 1
+    (30, 'READ_ADDR'): 1
+    (30, 'WRITE_ADDR'): 0
+    (31, 'READ_ADDR'): 2
+    (31, 'WRITE_ADDR'): 1
+    (32, 'READ_ADDR'): 7
+    (32, 'WRITE_ADDR'): 8
+    (33, 'READ_ADDR'): 0
+    (33, 'WRITE_ADDR'): 2
+    (34, 'READ_ADDR'): 2
+    (34, 'WRITE_ADDR'): 1
+    (35, 'READ_ADDR'): 1
+    (35, 'WRITE_ADDR'): 0
+    (36, 'READ_ADDR'): 3
+    (36, 'WRITE_ADDR'): 2
+    (37, 'READ_ADDR'): 1
+    (37, 'WRITE_ADDR'): 1
+    (38, 'READ_ADDR'): 3
+    (38, 'WRITE_ADDR'): 3
+    (39, 'READ_ADDR'): 2
+    (39, 'WRITE_ADDR'): 0
+    (4, 'READ_ADDR'): 2
+    (4, 'WRITE_ADDR'): 2
+    (40, 'READ_ADDR'): 1
+    (40, 'WRITE_ADDR'): 1
+    (41, 'READ_ADDR'): 1
+    (41, 'WRITE_ADDR'): 1
+    (42, 'READ_ADDR'): 0
+    (42, 'WRITE_ADDR'): 2
+    (43, 'READ_ADDR'): 3
+    (43, 'WRITE_ADDR'): 1
+    (44, 'READ_ADDR'): 1
+    (44, 'WRITE_ADDR'): 1
+    (45, 'READ_ADDR'): 0
+    (45, 'WRITE_ADDR'): 0
+    (46, 'READ_ADDR'): 1
+    (46, 'WRITE_ADDR'): 2
+    (47, 'READ_ADDR'): 1
+    (47, 'WRITE_ADDR'): 1
+    (48, 'READ_ADDR'): 9
+    (48, 'WRITE_ADDR'): 4
+    (49, 'READ_ADDR'): 0
+    (49, 'WRITE_ADDR'): 0
+    (5, 'READ_ADDR'): 2
+    (5, 'WRITE_ADDR'): 1
+    (50, 'READ_ADDR'): 1
+    (50, 'WRITE_ADDR'): 0
+    (51, 'READ_ADDR'): 2
+    (51, 'WRITE_ADDR'): 1
+    (52, 'READ_ADDR'): 0
+    (52, 'WRITE_ADDR'): 3
+    (53, 'READ_ADDR'): 2
+    (53, 'WRITE_ADDR'): 2
+    (54, 'READ_ADDR'): 0
+    (54, 'WRITE_ADDR'): 0
+    (55, 'READ_ADDR'): 0
+    (55, 'WRITE_ADDR'): 3
+    (56, 'READ_ADDR'): 3
+    (56, 'WRITE_ADDR'): 5
+    (57, 'READ_ADDR'): 2
+    (57, 'WRITE_ADDR'): 2
+    (58, 'READ_ADDR'): 0
+    (58, 'WRITE_ADDR'): 0
+    (59, 'READ_ADDR'): 0
+    (59, 'WRITE_ADDR'): 2
+    (6, 'READ_ADDR'): 1
+    (6, 'WRITE_ADDR'): 1
+    (60, 'READ_ADDR'): 3
+    (60, 'WRITE_ADDR'): 3
+    (61, 'READ_ADDR'): 1
+    (61, 'WRITE_ADDR'): 0
+    (62, 'READ_ADDR'): 2
+    (62, 'WRITE_ADDR'): 0
+    (63, 'READ_ADDR'): 0
+    (63, 'WRITE_ADDR'): 1
+    (64, 'READ_ADDR'): 18
+    (64, 'WRITE_ADDR'): 19
+    (65, 'READ_ADDR'): 1
+    (65, 'WRITE_ADDR'): 0
+    (66, 'READ_ADDR'): 1
+    (66, 'WRITE_ADDR'): 1
+    (67, 'READ_ADDR'): 0
+    (67, 'WRITE_ADDR'): 0
+    (68, 'READ_ADDR'): 0
+    (68, 'WRITE_ADDR'): 2
+    (69, 'READ_ADDR'): 2
+    (69, 'WRITE_ADDR'): 1
+    (7, 'READ_ADDR'): 1
+    (7, 'WRITE_ADDR'): 0
+    (70, 'READ_ADDR'): 0
+    (70, 'WRITE_ADDR'): 1
+    (71, 'READ_ADDR'): 2
+    (71, 'WRITE_ADDR'): 1
+    (72, 'READ_ADDR'): 2
+    (72, 'WRITE_ADDR'): 5
+    (73, 'READ_ADDR'): 0
+    (73, 'WRITE_ADDR'): 0
+    (74, 'READ_ADDR'): 2
+    (74, 'WRITE_ADDR'): 3
+    (75, 'READ_ADDR'): 0
+    (75, 'WRITE_ADDR'): 1
+    (76, 'READ_ADDR'): 1
+    (76, 'WRITE_ADDR'): 1
+    (77, 'READ_ADDR'): 3
+    (77, 'WRITE_ADDR'): 0
+    (78, 'READ_ADDR'): 2
+    (78, 'WRITE_ADDR'): 3
+    (79, 'READ_ADDR'): 1
+    (79, 'WRITE_ADDR'): 2
+    (8, 'READ_ADDR'): 3
+    (8, 'WRITE_ADDR'): 0
+    (80, 'READ_ADDR'): 1
+    (80, 'WRITE_ADDR'): 3
+    (81, 'READ_ADDR'): 3
+    (81, 'WRITE_ADDR'): 0
+    (82, 'READ_ADDR'): 1
+    (82, 'WRITE_ADDR'): 0
+    (83, 'READ_ADDR'): 2
+    (83, 'WRITE_ADDR'): 1
+    (84, 'READ_ADDR'): 2
+    (84, 'WRITE_ADDR'): 2
+    (85, 'READ_ADDR'): 0
+    (85, 'WRITE_ADDR'): 1
+    (86, 'READ_ADDR'): 0
+    (86, 'WRITE_ADDR'): 2
+    (87, 'READ_ADDR'): 1
+    (87, 'WRITE_ADDR'): 1
+    (88, 'READ_ADDR'): 4
+    (88, 'WRITE_ADDR'): 2
+    (89, 'READ_ADDR'): 0
+    (89, 'WRITE_ADDR'): 1
+    (9, 'READ_ADDR'): 0
+    (9, 'WRITE_ADDR'): 1
+    (90, 'READ_ADDR'): 0
+    (90, 'WRITE_ADDR'): 1
+    (91, 'READ_ADDR'): 1
+    (91, 'WRITE_ADDR'): 2
+    (92, 'READ_ADDR'): 0
+    (92, 'WRITE_ADDR'): 0
+    (93, 'READ_ADDR'): 0
+    (93, 'WRITE_ADDR'): 2
+    (94, 'READ_ADDR'): 3
+    (94, 'WRITE_ADDR'): 2
+    (95, 'READ_ADDR'): 1
+    (95, 'WRITE_ADDR'): 1
+    (96, 'READ_ADDR'): 5
+    (96, 'WRITE_ADDR'): 2
+    (97, 'READ_ADDR'): 1
+    (97, 'WRITE_ADDR'): 1
+    (98, 'READ_ADDR'): 1
+    (98, 'WRITE_ADDR'): 0
+    (99, 'READ_ADDR'): 2
+    (99, 'WRITE_ADDR'): 2
+  cover_percentage: 76.95
+  coverage: 394
+  size: 512
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+spi.cmd_abort_cross:
+  at_least: 1
+  bins:_hits:
+    ('READ_ADDR', 'ABORTED'): 294
+    ('READ_ADDR', 'COMPLETED'): 265
+    ('READ_DATA', 'ABORTED'): 246
+    ('READ_DATA', 'COMPLETED'): 307
+    ('WRITE_ADDR', 'ABORTED'): 284
+    ('WRITE_ADDR', 'COMPLETED'): 259
+    ('WRITE_DATA', 'ABORTED'): 221
+    ('WRITE_DATA', 'COMPLETED'): 249
+  cover_percentage: 100.0
+  coverage: 8
+  size: 8
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+spi.cmd_transitions:
+  at_least: 1
+  bins:_hits:
+    READ_ADDR -> READ_ADDR: 38
+    READ_ADDR -> READ_DATA: 106
+    READ_ADDR -> WRITE_ADDR: 74
+    READ_ADDR -> WRITE_DATA: 46
+    READ_DATA -> READ_ADDR: 61
+    READ_DATA -> READ_DATA: 56
+    READ_DATA -> WRITE_ADDR: 109
+    READ_DATA -> WRITE_DATA: 78
+    WRITE_ADDR -> READ_ADDR: 75
+    WRITE_ADDR -> READ_DATA: 66
+    WRITE_ADDR -> WRITE_ADDR: 33
+    WRITE_ADDR -> WRITE_DATA: 85
+    WRITE_DATA -> READ_ADDR: 91
+    WRITE_DATA -> READ_DATA: 77
+    WRITE_DATA -> WRITE_ADDR: 42
+    WRITE_DATA -> WRITE_DATA: 39
+  cover_percentage: 100.0
+  coverage: 16
+  size: 16
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+spi.command:
+  at_least: 1
+  bins:_hits:
+    READ_ADDR: 559
+    READ_DATA: 553
+    WRITE_ADDR: 543
+    WRITE_DATA: 470
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
