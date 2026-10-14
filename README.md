@@ -162,12 +162,12 @@ By default, outputs are written under `sim/regression_runs/`:
 - `regression_summary.json` - Parsed test counts and simulator exit status.
 - `coverage_merged.yaml` - Coverage merged across the five seeds.
 
-`sim/regression_runs/` is ignored by Git because these are generated run
-artifacts.
+The regression outputs are kept in `sim/regression_runs/` and are not ignored
+by Git.
 
 ### Recorded regression status
 
-The checked-in report snapshot contains five Cocotb tests for each of the five
+The available report snapshot records five Cocotb tests for each of the five
 seeds: **25 test executions total, with zero reported failures or errors**.
 The merged functional coverage is **100% (798/798 bins)**.
 
@@ -175,6 +175,7 @@ The merged functional coverage is **100% (798/798 bins)**.
 
 ```text
 .
+|-- .gitignore
 |-- rtl/
 |   |-- spi_slave.v       SPI slave protocol engine
 |   |-- spi_ram.v         Single-port RAM and command handling
@@ -182,11 +183,11 @@ The merged functional coverage is **100% (798/798 bins)**.
 |-- sim/
 |   |-- Makefile          Questa/Cocotb simulation setup
 |   |-- coverage.yaml     Functional coverage configuration
-|   `-- run_regression.py Five-seed runner and coverage merger
+|   |-- run_regression.py Five-seed runner and coverage merger
+|   `-- regression_runs/  Regression summary, merged coverage, and per-seed results/logs
 |-- spec_doc/
 |   |-- SPI Slave + Single-Port RAM - RTL Specification.pdf
-|   |-- testbench_arch.png
-|   `-- bug               Captured bug note
+|   `-- testbench_arch.png
 |-- testbench/
 |   `-- test_spi.py       Driver, monitor, model, tests, and coverage
 `-- README.md
